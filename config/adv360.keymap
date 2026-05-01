@@ -301,7 +301,7 @@
         scrolla_activate: scrolla_activate {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LG(S)))>;
+            bindings = <&tap_hold LA(LC(LG(S))) RIGHT_BRACKET>;
             label = "SCROLLA_ACTIVATE";
         };
     };
