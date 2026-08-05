@@ -345,8 +345,13 @@
         };
 
         combo_homerow {
-            bindings = <&kp LG(LA(I))>;
+            bindings = <&kp LG(LA(Y))>;
             key-positions = <66 69>;
+        };
+
+        mouseless {
+            bindings = <&kp LG(LA(H))>;
+            key-positions = <65 69>;
         };
     };
 
